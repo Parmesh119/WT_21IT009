@@ -7,6 +7,12 @@
     <title>Convert the Temperature</title>
 </head>
 <body>
-    <script src="Calculations.js"></script>
+    <form>
+        <label for="Temp">Temperature</label>
+        <input type="number" name="Temperature" id="Temp" placeholder="Temperature in Celsius">
+        <br>
+        <button onclick="convert(document.getElementById('Temp').value)">Temperature in Fahrenheit</button>
+    </form>
+    <script src="Temp.js"></script>
 </body>
 </html>

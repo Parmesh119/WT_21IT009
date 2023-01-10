@@ -7,21 +7,23 @@
     <title>Basic Calculator</title>
 </head>
 <body>
-    <form action="Basic Calculator.html">
+    <form>
         <label for="Number1">Number1:</label>
-        <input type="number" name="Numver1" id="Number1">
+        <input type="number" name="Num1" id="Num1">
         <br>
         <label for="Number2">Number2:</label>
-        <input type="number" name="Numver2" id="Number2">
+        <input type="number" name="Num2" id="Num2">
         <br>
         <ol>
-            <li><button onclick="add(Number1, Number2);">add</button></li>
-            <li><button onclick="mul(Number1, Number2);">Multiplication</button></li>
-            <li><button onclick="divison(Number1, Number2);">divide</button></li>
-            <li><button onclick="subtraction(Number1, Number2);">subtraction</button></li>
-            <li><button onclick="mod(Number1, Number2);">Modelus</button></li>
-        </ol>
-        </form>
-    <script src="Basic Calculator.js"></script>
+            <li><button onclick="add(document.getElementById('Num1').value,document.getElementById('Num2').value)">add</button></li>
+            <li><button onclick="mul(document.getElementById('Num1').value,document.getElementById('Num2').value)">Multiplication</button></li>
+            <li><button onclick="divison(document.getElementById('Num1').value,document.getElementById('Num2').value)">divide</button></li>
+            <li><button onclick="subtraction(document.getElementById('Num1').value,document.getElementById('Num2').value)">subtraction</button></li>
+            <li><button onclick="mod(document.getElementById('Num1').value,document.getElementById('Num2').value)">Modelus</button></li>
+        </ol> 
+    </form>
+        <script src="./Basic Calculator.js">
+            
+        </script>
 </body>
 </html>

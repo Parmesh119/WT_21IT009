@@ -1,21 +1,32 @@
 // const prompt = require('prompt-sync')();
-function add(num1, num2){
-    console.log(num1 + num2)
+function add(Num1, Num2){
+    const n1 = Number(Num1);
+    const n2 = Number(Num2);
+    alert(n1 + n2);
 }
-function subtraction(num1, num2){
-    console.log(num1 - num2)
+function subtraction(Num1, Num2){
+    const n1 = Number(Num1);
+    const n2 = Number(Num2);
+    alert(n1 - n2);
 }
-function mul(num1, num2){
-    console.log(num1 * num2)
+function mul(Num1, Num2){
+    const n1 = Number(Num1);
+    const n2 = Number(Num2);
+    alert(n1 * n2);
 }
-function divison(num1, num2){
-    if(num1 == 0){
-        console.log(num1 / num2)
+function divison(Num1, Num2){
+    const n1 = Number(Num1);
+    const n2 = Number(Num2);
+    if(n1 == 0){
+        alert(n1 / n2);
+    }else{
+        alert(n2 / n1)
     }
-    console.log(num2 / num2)
 }
-function mod(num1, num2){
-    console.log(num1 % num2)
+function mod(Num1, Num2){
+    const n1 = Number(Num1);
+    const n2 = Number(Num2);
+    alert(n1 % n2);
 }
 
 // let ch = prompt('Enter the operation that you have to do in basic calculator:')
