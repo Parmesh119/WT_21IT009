@@ -18,7 +18,7 @@ function mod(num1, num2){
     return num1 % num2
 }
 
-let ch = prompt('Enter the operation that you have to do in basic calculator:')
+let ch = prompt('Enter the operation that you have to do in basic calculator: ')
 let num1 = Number(prompt('Enter the first number:'))
 let num2 = Number(prompt('Enter the second number:'))
 if(ch == '+'){
