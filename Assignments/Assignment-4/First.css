@@ -1,0 +1,35 @@
+body {
+    background-color: aquamarine;
+}
+
+#bike {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 3%;
+    background-color: #fff;
+}
+
+#bike {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 3%;
+    background-color: #fff;
+}
+
+#car {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 3%;
+    background-color: #fff;
+}
+
+#phone {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 3%;
+    background-color: #fff;
+}
