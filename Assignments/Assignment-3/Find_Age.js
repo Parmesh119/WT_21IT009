@@ -1,13 +1,10 @@
 const prompt=require('prompt-sync')();
-let n1 = Number(prompt("Enter your birthdate: ")); // please input the date in ddmmyyyy format otherwise it will 
-let n = new Date();
-let str="";
-str += n.getDate();
-str += n.getMonth()+1;
-str += n.getFullYear();
-let num = Number(str);
-if(n<=0){
-    console.log("Invalid date");    
-}else{
-    console.log(n1 - num)
+function calculate_age(dob) { 
+    var diff_ms = Date.now() - dob.getTime();
+    // var age_dt = new Date(diff_ms); 
+    console.log(diff_ms);
 }
+let n1 = prompt("Enter your birth date: ")
+// let n2 = prompt("Enter second date: ")
+console.log(calculate_age(new Date(n1)));
+// console.log(calculate_age(new Date(n2)));
